@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-loja.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <title>Loja Galáxia</title>
+</head>
+<body>
+    <header class="nav-bar">
+            <a href="../index.html"><img class="logo" src="../img/logot.png" alt=""></a>
+            <nav>
+                <ul>
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#about-info">About</a></li>
+                    <li class="nav-item"><a href="#menu">Menu</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <img class="car" src="../img/carrinho.png" alt="carrinho">
+            <label class="carAdd">0</label>
+            <div class="menu-icon">
+                <img src="../img/menu.png" alt="icone-menu" class="icon">
+            </div>
+            
+        </header>
+    <div id="container">
+        
+
+        <section id="sec-container">
+            <div class="txt-1">
+                <h2>Rites are in time the same as the domicile is in space.</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi id non reiciendis impedit est delectus commodi omnis perferendis, quos, expedita dolorem cumque eveniet sequi aliquam, nihil aliquid natus obcaecati. Voluptatem?</p>
+                <button>Get in now</button>
+            </div>
+            <div class="img-2"><img src="../img/rpa-loja.png" alt=""></div>
+        </section>
+
+        <div id="about-info">
+            <h1>About <font color="blue">Us</font></h1>
+            <div class="content-about">
+                <div class="info-left">
+                    <h2>Melhor Loja do Universo</h2>
+                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe quis inventore, porro placeat nostrum maiores voluptatum aspernatur corrupti! Cum amet dolorum explicabo molestiae, distinctio reprehenderit iure eius consequuntur corrupti atque?<br><br> ipsum dolor sit, amet consectetur adipisicing elit. Sint voluptates alias placeat vel consectetur, earum hic expedita accusamus qui? Est, voluptate delectus. Ratione nesciunt voluptate cumque sed quidem repudiandae quibusdam...</h4>
+                    <button>Read more</button>
+                </div> 
+                <div class="img-right"></div>
+            </div>
+        </div>
+    </div>
+
+    <main class="menu" id="menu">
+        <h1 class="titulo"> Our <span>Menu</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="../img/roupa-1.jpg" alt="roupa">
+                <h3>Conjunto espacial infantil</h3>
+                <div class="price">R$ 89,99 <span>R$ 120,00</span></div>
+                <button class="btn" onclick="addCar()">Add to cart</button>
+
+                <div class="before"></div>
+            </div>
+
+            <div class="box2">
+                <img src="../img/roupa-2.jpg" alt="roupa">
+                <h3>Conjunto espacial infantil</h3>
+                <div class="price">R$ 189,99 <span>R$ 200,00</span></div>
+                <button class="btn2" onclick="addCar2()">Add to cart</button>
+                <div class="before2"></div>
+            </div>
+
+            <div class="box3">
+                <img src="../img/roupa-3.jpg" alt="roupa">
+                <h3>Adult Astronaut</h3>
+                <div class="price">R$ 359,99 <span>R$ 500,00</span></div>
+                <button class="btn3" onclick="addCar3()">Add to cart</button>
+                <div class="before3"></div>
+            </div>
+
+            <div class="box4">
+                <img src="../img/roupa-3.jpg" alt="roupa">
+                <h3>Adult Astronaut</h3>
+                <div class="price">R$ 359,99 <span>R$ 500,00</span></div>
+                <button class="btn4" onclick="addCar4()">Add to cart</button>
+                <div class="before4"></div>
+            </div>
+
+            <div class="box5">
+                <img src="../img/roupa-1.jpg" alt="roupa">
+                <h3>Conjunto espacial infantil</h3>
+                <div class="price">R$ 89,99 <span>R$ 120,00</span></div>
+                <button class="btn5" onclick="addCar5()">Add to cart</button>
+                <div class="before5"></div>
+            </div>
+
+            <div class="box6">
+                <img src="../img/roupa-2.jpg" alt="roupa">
+                <h3>Conjunto espacial</h3>
+                <div class="price">R$ 189,99 <span>R$ 220,00</span></div>
+                <button class="btn6" onclick="addCar6()">Add to cart</button>
+                <div class="before6"></div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer id="contact">
+        <h1><font color="blue">Contact</font> us</h1>
+        <form>
+            <input type="text"  placeholder="Digite seu nome...">
+            <input type="email" placeholder="Digite seu e-mail...">
+            <textarea  cols="30" rows="10" placeholder="Deixe seu comentario aqui"></textarea>
+        </form>
+    </footer>
+</body>
+<script src="script.js" defer></script>
+</html>
+

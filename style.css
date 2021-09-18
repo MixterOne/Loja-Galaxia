@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url(img/galaxy-space.gif) no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 55px;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 1px 5px 2px rgb(0, 0, 0);
+}
+
+.font{
+    text-transform: uppercase;
+    text-shadow: 1px 4px 2px rgb(30, 140, 160);
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    width: 200px;
+    margin-top: 40px;
+    background: linear-gradient(to right, blue, black);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    transition: all 0.7s ease-in-out;
+}
+
+.btn:hover{
+    /*background: linear-gradient(to left, blue, black);*/
+    border-radius: 25px;
+    border:1px blue solid;
+    background: rgba(255, 255, 255, 0.116);
+    box-shadow: 5px 2px 5px 2px black;
+    color: rgba(48, 194, 182, 0.575);
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px){
+    #inicio{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    h1{
+        font-size: 45px;
+        font-family: 'Roboto Mono', monospace;
+        text-shadow: 1px 5px 2px rgb(0, 0, 0);
+    }
+    
+    .font{
+        text-transform: uppercase;
+        text-shadow: 1px 4px 2px rgb(30, 140, 160);
+        font-size: 50px;
+        letter-spacing: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .btn{
+        width: 200px;
+        margin-top: 40px;
+        background: linear-gradient(to right, blue, black);
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 10px 15px;
+        font-size: 18px;
+        font-weight: 100;
+        cursor: pointer;
+    
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+        transition: all 0.7s ease-in-out;
+    }
+    
+    .btn:hover{
+        /*background: linear-gradient(to left, blue, black);*/
+        border-radius: 25px;
+        border:1px blue solid;
+        background: rgba(255, 255, 255, 0.116);
+        box-shadow: 5px 2px 5px 2px black;
+        color: rgba(48, 194, 182, 0.575);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px){
+    #inicio{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    h1{
+        font-size: 35px;
+        font-family: 'Roboto Mono', monospace;
+        text-shadow: 1px 5px 2px rgb(0, 0, 0);
+    }
+    
+    .font{
+        text-transform: uppercase;
+        text-shadow: 1px 4px 2px rgb(30, 140, 160);
+        font-size: 40px;
+        letter-spacing: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .btn{
+        width: 200px;
+        margin-top: 40px;
+        background: linear-gradient(to right, blue, black);
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 10px 15px;
+        font-size: 18px;
+        font-weight: 100;
+        cursor: pointer;
+    
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+        transition: all 0.7s ease-in-out;
+    }
+    
+    .btn:hover{
+        /*background: linear-gradient(to left, blue, black);*/
+        border-radius: 25px;
+        border:1px blue solid;
+        background: rgba(255, 255, 255, 0.116);
+        box-shadow: 5px 2px 5px 2px black;
+        color: rgba(48, 194, 182, 0.575);
+    }
+}
+
+
+
